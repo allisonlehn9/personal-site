@@ -10,14 +10,14 @@ html {
 
 .title {
   text-align: right;
-  font-size: 72px;
+  font-size: 5vw;
   font-weight: 500;
   margin: 0%;
   margin-bottom: 1%;
 }
 
 .section--header {
-  font-size: 56px;
+  font-size: 3vw;
   font-weight: 500;
 }
 
@@ -25,9 +25,9 @@ html {
   display: flex;
   justify-content: flex-end;
   gap: 5%;
-  font-size: 40px;
+  font-size: 3vw;
   margin-bottom: 10%;
-  padding: 10px;
+  padding: 1%;
   padding-top: 0px;
   color: black;
 }
@@ -41,7 +41,7 @@ html {
   background-image: url('./images/navbar/yarn2.svg');
   background-repeat: no-repeat;
   background-position-y: bottom;
-  background-size: 575px;
+  background-size: 45vw;
   margin: 0%;
 }
 
@@ -64,11 +64,11 @@ html {
 
 .intro--text {
   
-  font-size: 18px;
+  font-size: 1.5vw;
   align-content: center;
   border-style: solid;
   border-color: #6A30A5;
-  border-width: 5px;
+  border-width: 0.5vw;
   padding: 5%;
 
 }
@@ -81,10 +81,10 @@ html {
 
 .project {
   /* border: 10px solid green; */
-  width: 500px;
-  height: 359px;
-  font-size: 40px;
-  padding: 10px;
+  width: 40vw;
+  height: 28.72vw;
+  font-size: 3.5vw;
+  padding: 1vw;
   text-decoration: none;
   color: black;
 }
@@ -96,7 +96,7 @@ html {
   
   width: inherit;
   height: inherit;
-  padding: 0px 75px;
+  padding: 0vw 7.5vw;
   
   box-sizing: border-box;
   display: flex;
@@ -111,7 +111,7 @@ html {
 
   width: inherit;
   height: inherit;
-  padding: 0px 75px;
+  padding: 0vw 7.5vw;
   
   box-sizing: border-box;
   display: flex;
@@ -126,7 +126,7 @@ html {
 
   width: inherit;
   height: inherit;
-  padding: 0px 75px;
+  padding: 0vw 7.5vw;
   
   box-sizing: border-box;
   display: flex;
@@ -134,11 +134,31 @@ html {
   align-items: center;
 }
 
-.contact--button {
-  margin: 0;
+.contact--buttons > a > button {
+  margin: 1vw;
   border: 0;
-  padding: 0px;
-  background : none;
+  padding: 0vw;
+  width:15vw;
+  height: 15vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+}
+
+.contact--twitter {
+  background-image: url('./images/contact/twitter.svg');
+}
+
+.contact--email {
+  background-image: url('./images/contact/email.svg');
+}
+
+.contact--linkedin {
+  background-image: url('./images/contact/linkedin.svg');
+}
+
+.contact--github {
+  background-image: url('./images/contact/github.svg');
 }
 
 .contact--buttons {
@@ -146,7 +166,7 @@ html {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  gap: 1%;
+  
 }
 
 p {
@@ -160,17 +180,23 @@ p {
 }
 
 .pagehead--logo {
+  background-image: url('./images/navbar/yarn3.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
   margin: 0;
   border: 0;
-  padding: 0px;
-  background : none;
-  padding-top: 10px;  
+  padding: 0vw;
+  height:10vw;
+  width:10vw;
 }
+
+
 
 .pagehead--title {
   text-align: left;
   align-self: center;
-  font-size: 64px;
+  font-size: 5vw;
   font-weight: 500;
   margin: 0%;
 }
@@ -181,12 +207,11 @@ p {
   height: 435px;
   width: 391px;
   float: right;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin: 5vw
 }
 
 .page--body {
-  margin-top: 50px;
+  margin-top: 5vw;
 }
 
 .page--body > h2 {
@@ -197,26 +222,53 @@ ul {
   text-align: left;
 }
 
-figure > img {
-  max-width:80%;
+.storymap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.storymap > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .rupaul--images {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 10px
+  gap: 1vw;
   
+}
+
+.rupaul--images > figure >img {
+  max-width: 90%;
 }
 
 h2 {
   text-align: "left"
 }
 
-.row {
+.page--colombia {
   display: flex;
 }
 
 .column {
   flex: 50%;
+}
+
+.column > figure > img{
+  width:100%;
+  min-height:100%;
+}
+
+.column > figure {
+  min-width: 90%;
+  margin-bottom: 10vw;
 }

@@ -14,7 +14,9 @@ export default function Spotify() {
                     Otherwise, you can follow along just as well below.
                 </p>
                 <br></br>
-                <iframe title="Spotify Mapped ArcGIS StoryMap" src="https://storymaps.arcgis.com/stories/abd17be1fa1a40049dc9991553ba24fe" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
+                <div className="storymap">
+                    <iframe title="Spotify Mapped ArcGIS StoryMap" src="https://storymaps.arcgis.com/stories/abd17be1fa1a40049dc9991553ba24fe" allowfullscreen allow="geolocation"></iframe>
+                </div>
             </div>
         </div>
     )

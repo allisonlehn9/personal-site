@@ -18,9 +18,7 @@ export default function Colombia() {
     <div>
         <PageHead name="Colombia Digital History Lab" />
         <div className="page--body">
-
-
-            <div className="row">
+            <div className="page--colombia">
                 <div className="column">
                     <h2>Intro</h2>
                     <p>
@@ -149,42 +147,43 @@ export default function Colombia() {
                         <img src={fig1} alt="Sample of periodical license data" />
                         <figcaption>Figure 1: Sample of periodical license data</figcaption>
                     </figure>
-                    <figure style={{display:"flex", flexDirection:"column", alignItems:"center", float:"right", width:"500px"}}>
+                    <figure style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
                         <img src={fig2a} alt="Input data" />
                         <img src={fig2b} alt="Output data" />
                         <figcaption>Figure 2: Input image data and output text data</figcaption>
                     </figure>
-                    <figure style={{display:"flex", flexDirection:"column", alignItems:"center", float:"right", width:"500px"}}>
+                    <figure style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
                         <img src={fig3a} alt="Input data with periods removed" />
                         <img src={fig3b} alt="Binarized (black and white) data" />
                         <img src={fig3c} alt="Improved OCR Output" />
                         <figcaption>Figure 3: Improved OCR output after image processing</figcaption>
                     </figure>
 
-                    <figure style={{float:"right", width:"500px"}}>
+                    <figure>
                         <img src={fig4} alt="Data subset: directors" />
                         <figcaption>Figure 4: Finished subset of the dataset, showing the director formatting schema</figcaption>
                     </figure>
-                    <figure style={{float:"right", width:"500px"}}>
+                    <figure>
                         <img src={fig5} alt="Default map view" />
                         <figcaption>Figure 5: Default view of multiple values being plotted at the same location (Ibagué).</figcaption>
                     </figure>
-                    <figure style={{float:"right", width:"500px"}}>
+                    <figure >
                         <img src={fig6} alt="Cluster view" />
                         <figcaption>Figure 6: Cluster view</figcaption>
                     </figure>
-                    <figure style={{float:"right", width:"500px"}}>
+                    <figure >
                         <img src={fig7} alt="Periodical categories" />
                         <figcaption>Figure 7: Numerical representation of the periodical categories</figcaption>
                     </figure>
-                    <figure style={{float:"right", width:"500px"}}>
+                    <figure >
                         <img src={fig8} alt="Labeled clusters" />
                         <figcaption>Figure 8: Labeled clusters by category</figcaption>
                     </figure>
-                    <figure style={{float:"right", width:"500px"}}>
+                    <figure >
                         <img src={fig9} alt="Spread points" />
                         <figcaption>Figure 9: Spread points, colored by category</figcaption>
                     </figure>
+                    
                 </div>
             </div>
         </div>
